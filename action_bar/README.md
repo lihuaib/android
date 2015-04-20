@@ -1,5 +1,5 @@
 # episode 1 
-![Alt text](/sample.png)
+![Alt text](sample.png)
 
 
 
