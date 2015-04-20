@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="45sp"
+    android:background="#ff09316d">
+
+    <ImageView
+        android:id="@+id/ivLeftBack"
+        android:layout_width="33dip"
+        android:layout_height="33dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:contentDescription="@null"
+        android:paddingBottom="6.0dip"
+        android:paddingLeft="6dip"
+        android:paddingTop="6.0dip"
+        android:src="@drawable/top_bar_btn_back" />
+
+    <TextView
+        android:id="@+id/tvLeftBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dip"
+        android:text="Cancel"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffffff"
+        android:textSize="17sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvMiddleHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:maxLength="50"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:text="This is Title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRightbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dip"
+        android:text="Done"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffffff"
+        android:textSize="17sp"
+        android:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CompActionBar">
+        <attr name="middle_title" format="string" />
+        <attr name="showLeftImg" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="showLeftTv" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="showRightTv" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="showRightTvText" format="string" />
+    </declare-styleable>
+
+</resources>
