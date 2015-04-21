@@ -21,6 +21,7 @@
 ![Alt text](/custom_dialog/sample.png)
 
 ### episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
+![Alt text](/phone_input/sample.png)
 
 ### episode 6 -- [ListView](/list_view/ "spring and custom item")
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_corner_all"
+    android:orientation="horizontal"
+    android:padding="2dip">
+
+    <LinearLayout
+        android:id="@+id/lyPlusPrefix"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="2dip"
+        android:background="#00ffffff"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="@color/blue"
+            android:textSize="30.0sp" />
+    </LinearLayout>
+
+    <com.example.lee.phoneinput.CompTextInput
+        android:id="@+id/compTextInput"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        lee:digits="0123456789#"
+        lee:inputType="TYPE_CLASS_PHONE" />
+
+    <LinearLayout
+        android:id="@+id/lyCodeSuffix"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="2dip"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/countryCode"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_corner_country_code"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="CN"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CompTextInput">
+        <attr name="digits" format="string" />
+        <attr name="inputType" format="enum">
+            <enum name="TYPE_CLASS_TEXT" value="1" />
+            <enum name="TYPE_CLASS_NUMBER" value="2" />
+            <enum name="TYPE_CLASS_PHONE" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
