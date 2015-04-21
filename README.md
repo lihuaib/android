@@ -29,7 +29,7 @@
 ### episode 7 -- [CallLogs And Contacts](/call_log_and_contacts/ "show with list view and custom items")
 ![Alt text](/call_log_and_contacts/sample.png)
 
-### episode 8 -- [Catch call event and modify the call logs](/call_inteceptor/ "custom call and change call logs")
+### episode 8 -- [Catch call event and modify the call logs](/call_inteceptor/ "call event")
 
 ### episode 9 -- [Gesture](/gesture/ "move left to finish activity")
 
