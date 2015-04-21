@@ -17,7 +17,8 @@
 ### episode 3 -- [CustomMenu](/custom_menu/ "Left icon, custom text and Right arrow")
 ![Alt text](/custom_menu/sample.png)
 
-### episode 4 -- [Dialog](/dialog/ "custom dialog like iphone")
+### episode 4 -- [CustomDialog](/custom_dialog/ "custom dialog like iphone")
+![Alt text](/custom_dialog/sample.png)
 
 ### episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
 
