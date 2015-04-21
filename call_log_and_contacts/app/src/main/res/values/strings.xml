@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CallLogs And Contacts</string>
+
+    <string name="btn_recents">Recents</string>
+    <string name="da_title_input_rule">0123456789#</string>
+    <string name="lb_main_about">About</string>
+    <string name="lb_unkown_name">Unkown name</string>
+</resources>

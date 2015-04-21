@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyPeopleItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comp_menu_item"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:minHeight="50.0dip"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/btn_recents"
+        android:textColor="@color/gray_1"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLength="40"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="@string/btn_recents"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLength="40"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="@string/da_title_input_rule"
+            android:textColor="@color/gray_1"
+            android:textSize="15.0sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

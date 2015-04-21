@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyCallLogItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comp_menu_item"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:minHeight="50.0dip">
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLength="40"
+            android:maxWidth="200dp"
+            android:singleLine="true"
+            android:text="@string/btn_recents"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivCallType"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/phone_record_out_call" />
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:maxLength="40"
+                android:maxWidth="200dp"
+                android:singleLine="true"
+                android:text="@string/da_title_input_rule"
+                android:textColor="@color/gray_1"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="#00ffffff"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:paddingRight="20dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/lb_main_about"
+            android:textColor="@color/gray_1"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

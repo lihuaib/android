@@ -23,17 +23,17 @@
 ### episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
 ![Alt text](/phone_input/sample.png)
 
-### episode 6 -- [CustomKeyPad](/keypad/ "custom keypad like weixin")
+### episode 6 -- [CustomKeyPad](/custom_keypad/ "custom keypad like weixin")
 ![Alt text](/custom_keypad/sample.png)
 
-### episode 7 -- [ListView](/list_view/ "spring and custom item")
-![Alt text](/listview/sample.png)
+### episode 7 -- [CallLogs And Contacts](/call_log_and_contacts/ "show with list view and custom items")
+![Alt text](/call_log_and_contacts/sample.png)
 
-### episode 8 -- [CallHistory](/calllogs/ "get call logs or recents calls")
+### episode 8 -- [Catch call event and modify the call logs](/call_inteceptor/ "custom call and change call logs")
 
-### episode 9 -- [Contacts](/contacts/ "get people group on devices")
+### episode 9 -- [Gesture](/gesture/ "move left to finish activity")
 
-### episode 10 -- [Gesture](/gesture/ "move left to finish activity")
+### episode 10 -- [Elasticity View like iphone do](/call_inteceptor/ "custom call and change call logs")
 
 ### episode 11 -- [ProcessMemoryLeak](/memory_leak/ "manage the leak of handler or http")
 
