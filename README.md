@@ -8,29 +8,29 @@
               Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 
 
-## episode 1 -- [ActionBar](/action_bar/ "ActionBar")
+### episode 1 -- [ActionBar](/action_bar/ "ActionBar")
 ![Alt text](/action_bar/sample.png)
 
-## episode 2 -- [TableBar](/table_bar/ "ActionBar or BottomBar")
+### episode 2 -- [TableBar](/table_bar/ "ActionBar or BottomBar")
 ![Alt text](/table_bar/sample.png)
 
-## episode 3 -- [CustomMenu](/custom_menu/ "Left icon, custom text and Right arrow")
+### episode 3 -- [CustomMenu](/custom_menu/ "Left icon, custom text and Right arrow")
 ![Alt text](/custom_menu/sample.png)
 
-## episode 4 -- [Dialog](/dialog/ "custom dialog like iphone")
+### episode 4 -- [Dialog](/dialog/ "custom dialog like iphone")
 
-## episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
+### episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
 
-## episode 6 -- [ListView](/list_view/ "spring and custom item")
+### episode 6 -- [ListView](/list_view/ "spring and custom item")
 
-## episode 7 -- [CustomKeyPad](/keypad/ "custom keypad like weixin")
+### episode 7 -- [CustomKeyPad](/keypad/ "custom keypad like weixin")
 
-## episode 8 -- [CallHistory](/calllogs/ "get call logs or recents calls")
+### episode 8 -- [CallHistory](/calllogs/ "get call logs or recents calls")
 
-## episode 9 -- [Contacts](/contacts/ "get people group on devices")
+### episode 9 -- [Contacts](/contacts/ "get people group on devices")
 
-## episode 10 -- [Gesture](/gesture/ "move left to finish activity")
+### episode 10 -- [Gesture](/gesture/ "move left to finish activity")
 
-## episode 11 -- [ProcessMemoryLeak](/memory_leak/ "manage the leak of handler or http")
+### episode 11 -- [ProcessMemoryLeak](/memory_leak/ "manage the leak of handler or http")
 
 
