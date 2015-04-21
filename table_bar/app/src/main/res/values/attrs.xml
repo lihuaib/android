@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CompTableBar">
+        <attr name="showIconIndex" format="enum">
+            <enum name="recents" value="0" />
+            <enum name="contacts" value="1" />
+            <enum name="keypad" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

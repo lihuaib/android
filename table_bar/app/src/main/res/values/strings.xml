@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TableBar</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <!-- for table bottom -->
+    <string name="btn_recents">Recents</string>
+    <string name="btn_contacts">Contacts</string>
+    <string name="btn_keypad">Keypad</string>
+    <string name="btn_settings">Home</string>
 </resources>
