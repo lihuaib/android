@@ -23,9 +23,11 @@
 ### episode 5 -- [PhoneInput](/phone_input/ "custom phone input")
 ![Alt text](/phone_input/sample.png)
 
-### episode 6 -- [ListView](/list_view/ "spring and custom item")
+### episode 6 -- [CustomKeyPad](/keypad/ "custom keypad like weixin")
+![Alt text](/custom_keypad/sample.png)
 
-### episode 7 -- [CustomKeyPad](/keypad/ "custom keypad like weixin")
+### episode 7 -- [ListView](/list_view/ "spring and custom item")
+![Alt text](/listview/sample.png)
 
 ### episode 8 -- [CallHistory](/calllogs/ "get call logs or recents calls")
 

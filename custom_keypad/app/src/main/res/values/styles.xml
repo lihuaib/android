@@ -1,0 +1,23 @@
+<resources>
+    <style name="ButtonCall">
+        <item name="android:layout_height">60.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+        <item name="android:background">@drawable/btn_purple</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="dial_keyboard_button">
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">2.0px</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+</resources>
