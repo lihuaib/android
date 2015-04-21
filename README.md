@@ -9,10 +9,13 @@
 
 
 ## episode 1 -- [ActionBar](/action_bar/ "ActionBar")
+![Alt text](/action_bar/sample.png)
 
 ## episode 2 -- [TableBar](/table_bar/ "ActionBar or BottomBar")
+![Alt text](/table_bar/sample.png)
 
 ## episode 3 -- [CustomMenu](/custom_menu/ "Left icon, custom text and Right arrow")
+![Alt text](/custom_menu/sample.png)
 
 ## episode 4 -- [Dialog](/dialog/ "custom dialog like iphone")
 
