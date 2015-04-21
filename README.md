@@ -12,7 +12,7 @@
 
 ## episode 2 -- [TableBar](/table_bar/ "ActionBar or BottomBar")
 
-## episode 3 -- [CustomItem](/custom_item/ "Left icon, custom text and Right arrow")
+## episode 3 -- [CustomMenu](/custom_menu/ "Left icon, custom text and Right arrow")
 
 ## episode 4 -- [Dialog](/dialog/ "custom dialog like iphone")
 

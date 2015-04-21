@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CompMenuCfgItemBtn">
+        <attr name="left_icon" format="reference" />
+        <attr name="show_left_icon" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="left_text" format="string" />
+        <attr name="show_left_text" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="right_text" format="string" />
+        <attr name="show_right_text" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="right_icon" format="reference" />
+        <attr name="show_right_icon" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+        <attr name="right_switch_on" format="reference" />
+        <attr name="right_switch_off" format="reference" />
+        <attr name="show_right_switch" format="enum">
+            <enum name="GONE" value="8" />
+            <enum name="VISIBLE" value="0" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

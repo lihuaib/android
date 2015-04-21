@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyItembtn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/comp_menu_item"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:minHeight="50.0dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10.0dip"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        android:gravity="center_vertical|left">
+
+        <ImageView
+            android:id="@+id/ivLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/settings_ico_about"
+            android:contentDescription="@null"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configure"
+            android:textColor="@color/black"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="#00ffffff"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/tvRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:ellipsize="end"
+            android:maxLength="20"
+            android:maxWidth="150dp"
+            android:singleLine="true"
+            android:text="Configure"
+            android:textColor="@color/gray_1"
+            android:textSize="15.0sp" />
+
+        <ImageView
+            android:id="@+id/ivRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:contentDescription="@null"
+            android:src="@drawable/arrow_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="#00ffffff"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ivSwitch"
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:layout_marginRight="8.0dip"
+            android:contentDescription="@null"
+            android:src="@drawable/switch_on" />
+    </LinearLayout>
+
+</LinearLayout>

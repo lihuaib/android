@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lee="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <com.example.lee.custommenu.CompMenuCfgItemBtn
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        lee:left_icon="@drawable/ico_user"
+        lee:left_text="text1"
+        lee:show_left_icon="VISIBLE"
+        lee:show_left_text="VISIBLE" />
+
+    <include layout="@layout/line" />
+
+    <com.example.lee.custommenu.CompMenuCfgItemBtn
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        lee:left_icon="@drawable/settings_ico_about"
+        lee:left_text="text2"
+        lee:show_left_icon="VISIBLE"
+        lee:show_left_text="VISIBLE"
+        lee:right_icon="@drawable/arrow_right"
+        lee:show_right_icon="VISIBLE" />
+
+    <include layout="@layout/line" />
+
+    <com.example.lee.custommenu.CompMenuCfgItemBtn
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        lee:left_icon="@drawable/settings_ico_about"
+        lee:left_text="text2"
+        lee:show_left_icon="VISIBLE"
+        lee:show_left_text="VISIBLE"
+        lee:right_text="text3"
+        lee:show_right_text="VISIBLE" />
+
+    <include layout="@layout/line" />
+
+    <com.example.lee.custommenu.CompMenuCfgItemBtn
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        lee:left_icon="@drawable/settings_ico_about"
+        lee:left_text="text2"
+        lee:show_left_icon="VISIBLE"
+        lee:show_left_text="VISIBLE"
+        lee:right_text="text3"
+        lee:show_right_text="VISIBLE"
+        lee:right_icon="@drawable/arrow_right"
+        lee:show_right_icon="VISIBLE"/>
+
+    <include layout="@layout/line" />
+
+    <com.example.lee.custommenu.CompMenuCfgItemBtn
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        lee:left_icon="@drawable/settings_ico_about"
+        lee:left_text="text2"
+        lee:show_left_icon="VISIBLE"
+        lee:show_left_text="VISIBLE"
+        lee:right_text="text3"
+        lee:show_right_text="VISIBLE"
+        lee:right_switch_on="@drawable/switch_on"
+        lee:right_switch_off="@drawable/switch_off"
+        lee:show_right_switch="VISIBLE"/>
+
+    <include layout="@layout/line" />
+
+</LinearLayout>
