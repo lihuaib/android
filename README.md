@@ -29,12 +29,15 @@
 ### episode 7 -- [CallLogs And Contacts](/call_log_and_contacts/ "show with list view and custom items")
 ![Alt text](/call_log_and_contacts/sample.png)
 
-### episode 8 -- [Catch call event and modify the call logs](/call_inteceptor/ "call event")
+### episode 8 -- [Catch call event and update call logs](/call_inteceptor/ "call event")
+![Alt text](/call_inteceptor/sample.png)
 
-### episode 9 -- [Gesture](/gesture/ "move left to finish activity")
+### episode 9 -- [Handle and Runnable memory leak](/handle_runable_memory_leak/ "handle runable memory leak")
+![Alt text](/handle_runable_memory_leak/sample.png)
 
-### episode 10 -- [Elasticity View like iphone do](/call_inteceptor/ "custom call and change call logs")
+### episode 10 -- [Gesture](/gesture/ "move left to finish activity")
 
-### episode 11 -- [ProcessMemoryLeak](/memory_leak/ "manage the leak of handler or http")
+### episode 11 -- [Elasticity View like iphone do](/call_inteceptor/ "custom call and change call logs")
+
 
 

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnLeak"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Leak" />
+
+    <Button
+        android:id="@+id/btnNotLeak"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="Not Leak" />
+
+</LinearLayout>
