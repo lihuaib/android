@@ -35,7 +35,8 @@
 ### episode 9 -- [Handle and Runnable memory leak](/handle_runable_memory_leak/ "handle runable memory leak")
 ![Alt text](/handle_runable_memory_leak/sample.png)
 
-### episode 10 -- [Gesture](/gesture/ "move left to finish activity")
+### episode 10 -- [Gesture](/gesture/ "slide as left menu and can move left to finish activity")
+![Alt text](/gesture/sample.gif)
 
 ### episode 11 -- [Elasticity View like iphone do](/call_inteceptor/ "custom call and change call logs")
 
